@@ -162,6 +162,7 @@ section.active .banner .blocks{
 }
 .bloc1 p img{
     width: 580px;
+    height: auto;
 }
 /* *********************************************************** */
 .bloc2 p img{
