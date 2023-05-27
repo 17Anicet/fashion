@@ -217,7 +217,7 @@ section.active .banner .blocks{
     justify-content: center;
 }
 .voir a{
-    padding: 5px;
+    padding: 5px 10px;
     color: white;
     border-radius: 8px;
     text-decoration: none;
