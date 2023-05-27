@@ -203,7 +203,7 @@ section.active .banner .blocks{
     margin-top: 40px;
 }
 .lien a{
-    padding: 8px;
+    padding: 8px 15px;
     color: white;
     text-decoration: none;
     border-radius: 5px;
