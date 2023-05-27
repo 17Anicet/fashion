@@ -151,9 +151,10 @@ section.active .banner .blocks{
     display: flex;
     flex-direction: row;
     padding: 30px;
-    gap: 40px;
+    width: 100%;
 }
 .bloc1 div p{
+    width: 70%;
     text-align: justify;
     padding-top: 45px;
 }
@@ -161,7 +162,7 @@ section.active .banner .blocks{
     color: green;
 }
 .bloc1 p img{
-    width: 580px;
+    width: 150%;
 }
 /* *********************************************************** */
 .bloc2 p img{
