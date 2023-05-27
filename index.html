@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/logowhite.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Fashion king</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="Images/logowhite.png" alt="logo"/>
+        <nav>
+            <a class="accueil" href="##">Accueil</a>
+            <a href="#a propos">A propos</a>
+            <a href="##">Blog</a>
+            <a href="##">Produits</a>
+        </nav>
+        <img class="panier" src="Images/panierwhite.png" alt="panier"/>
+    </header>
+    <section>
+        <h2>Fashion King and Queen</h2>
+        <div class="banner">
+            <div class="blocks"></div>
+        </div>
+    </section>
+    <script>
+        const banner = document.getElementsByClassName('banner')[0];
+        const blocks = document.getElementsByClassName('blocks');
+        for (var i=1; i<400; i++){
+            banner.innerHTML += "<div class='blocks'></div>";
+            const duration = Math.random() * 5;
+            blocks[i].style.animationDuration = 2+duration+'s';
+            blocks[i].style.animationDelay = duration+'s';
+        }
+        const section = document.querySelector('section');
+        setTimeout(function(){
+            section.classList.add('active')
+        }, 14000)
+    </script>
+
+    <aside>
+        <div class="bloc1">
+            <div>
+                <h2>Qui sommes-nous?</h2>
+                <p>FASHION KING AND QUEEN, nous sommes une marque de vetements créée en Octobre 2020 par trois jeunes Congolais résidants à Goma RDC.</p>
+                <p>Nous étions inspirés par l'historique royale, pour nous, étant jeunes nous devons tous adopter certains comportements royaux pour inspirer et servir mieux la communauté et comme la jeunesse est passionnéé de la mode, nous alors trouvés mieux de créer des habits portant la marque royale. Voilà ce qui explique le nom FASHION KING AND QUEEN.</p>
+                <p>FASHION KING AND QUEEN qui au départ était seulement porté à Goma, aujourd'hui nous portons cette marque originaire du Congo RDC sur le plan national et internationl portés par différentes pays comme le Rwanda, le Burundi, Kenya, Algérie, Canada, France, Chypre, Etats-Unis, Turquie, Etc.</p>
+            </div>
+            <p><img src="Images/co_fondateurs.jpeg" alt="fondateurs"></p>
+        </div>
+    </aside>
+    <aside>
+        <div class="bloc2">
+            <p><img src="Images/design_shirt.png" alt="shirt"></p>
+        </div>
+    </aside>
+    <aside>
+        <div class="bloc3">
+            <div class="articles">
+                <div class="contenu">
+                    <div class="contenus">
+                        <div class="contenu-article">
+                            <p><img src="Images/article.png" alt="photo article"></p>
+                            <p><span>T-Shirt</span> <br> Fashion King and Queen <br> 10$</p>
+                        </div>
+                        <div class="lien">
+                            <a href="#">ACHETER-COMMANDER</a>
+                        </div>
+                    </div>
+                    <div class="contenus">
+                        <div class="contenu-article">
+                            <p><img src="Images/article.png" alt="photo article"></p>
+                            <p><span>T-Shirt</span> <br> Fashion King and Queen <br> 10$</p>
+                        </div>
+                        <div class="lien">
+                            <a href="#">ACHETER-COMMANDER</a>
+                        </div>
+                    </div>
+                    <div class="contenus">
+                        <div class="contenu-article">
+                            <p><img src="Images/article.png" alt="photo article"></p>
+                            <p><span>T-Shirt</span> <br> Fashion King and Queen <br> 10$</p>
+                        </div>
+                        <div class="lien">
+                            <a href="#">ACHETER-COMMANDER</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="voir">
+                    <a href="#">Voir plus+</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <aside>
+        <div class="bloc4">
+            <h1>Keep in Touch</h1>
+            <h1>We push Goma First and Up</h1>
+            <p><img src="Images/phone_fashion.png" alt="phone_fashion"></p>
+        </div>
+    </aside>
+    <aside>
+        <div class="slider">
+            <h3>La marque du moment</h3>
+            <h4 class="under_line"></h4>
+            <figure>
+                <p><img src="Images/image_slider (1).jpeg" alt="image-slider"></p>
+                <p><img src="Images/image_slider (2).jpeg" alt="image-slider"></p>
+                <p><img src="Images/image_slider (3).jpeg" alt="image-slider"></p>
+                <p><img src="Images/image_slider (4).jpeg" alt="image-slider"></p>
+                <p><img src="Images/image_slider (5).jpeg" alt="image-slider"></p>
+                <p><img src="Images/image_slider (7).jpeg" alt="image-slider"></p>
+                <p><img src="Images/image_slider (8).jpeg" alt="image-slider"></p>
+                <p><img src="Images/image_slider (9).jpeg" alt="image-slider"></p>
+                <p><img src="Images/image_slider (10).jpeg" alt="image-slider"></p>
+                <p><img src="Images/image_slider (12).jpeg" alt="image-slider"></p>
+                <p><img src="Images/image_slider (13).jpeg" alt="image-slider"></p>
+                <p><img src="Images/image_slider (14).jpeg" alt="image-slider"></p>
+                <p><img src="Images/image_slider (15).jpeg" alt="image-slider"></p>
+                <p><img src="Images/image_slider (1).jpeg" alt="image-slider"></p>
+                <p><img src="Images/image_slider (8).jpeg" alt="image-slider"></p>
+            </figure>
+        </div>
+    </aside>
+    <aside>
+        <div class="bloc5">
+            <h3>Soyez au courant</h3>
+            <h4 class="under_line"></h4>
+            <div class="spectacles">
+                <p>Nous assurons la couverture des spectacles et évènements à la mode avec la marque royale Fashion King and Queen</p>
+                <div>
+                    <p><img src="Images/Fashion_mannequin 1 (1).jpeg" alt=""></p>
+                    <p><img src="Images/Fashion_mannequin 1 (2).jpeg" alt=""></p>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <aside>
+        <div class="bloc6">
+            <p>Retrouvez notre marqie au marché et possible de commander un Fashion King and Queen portant le drapeau de votre pays.</p>
+            <div>
+                <p><img src="Images/Fashion_mannequin 1.jpeg" alt=""></p>
+                <p><img src="Images/Fashion_mannequin 2.jpeg" alt=""></p>
+            </div>
+        </div>
+    </aside>
+    <aside>
+        <div class="article-plus">
+            <a href="#">lire plus d'articles</a>
+        </div>
+    </aside>
+    <aside>
+        <div class="bloc7">
+            <h3>Dernière vidéo</h3>
+            <h4 class="under_line"></h4>
+            <div>
+                <video src="Images/Fashion_King_and_Queen.mp4" width="1000px" controls></video>
+            </div>
+        </div>
+    </aside>
+    <footer>
+        <div class="bloc8">
+            <p>Goma-DRC</p>
+            <div>
+                <p>Fashion King and Queen</p>
+                <p><img src="Images/facebook.png" alt=""></p>
+                <p><img src="Images/instagram.png" alt=""></p>
+            </div>
+            <p>+243 979 302 240</p>
+        </div>
+        <div class="last_part">
+            <h5></h5>
+            <p>@Powered by NGUVU TECH 2023</p>
+        </div>
+    </footer>
+</body>
+</html>
