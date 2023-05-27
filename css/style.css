@@ -108,11 +108,11 @@ section h2{
 @keyframes animate{
     0%{
         transform: translateZ(2000px);
-        background: url(opening_image.JPG) no-repeat fixed;
+        background: url(../Images/opening_image.JPG) no-repeat fixed;
     }
     100%{
         transform: translateZ(0px);
-        background: url(opening_image.JPG);
+        background: url(../Images/opening_image.JPG);
         background-position: center;
         background-attachment: fixed;
         background-size: cover;
@@ -121,7 +121,7 @@ section h2{
 }
 section.active .banner .blocks{
     animation: animateTwo 2s ease-in-out forwards;
-    background: url(opening_image.JPG);
+    background: url(../Images/opening_image.JPG);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -130,7 +130,7 @@ section.active .banner .blocks{
 @keyframes animateTwo{
     0%{
         transform: translateZ(0px);
-        background: url(opening_image.JPG);
+        background: url(../Images/opening_image.JPG);
         background-position: center;
         background-attachment: fixed;
         background-size: cover;
@@ -138,7 +138,7 @@ section.active .banner .blocks{
     }
     100%{
         transform: translateZ(2000px);
-        background: url(opening_image.JPG);
+        background: url(../Images/opening_image.JPG);
         background-position: center;
         background-attachment: fixed;
         background-size: cover;
